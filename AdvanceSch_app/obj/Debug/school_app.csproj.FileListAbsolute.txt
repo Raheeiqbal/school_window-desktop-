@@ -1,0 +1,49 @@
+D:\sch_app\school_app\school_app\bin\Debug\school_app.exe.config
+D:\sch_app\school_app\school_app\bin\Debug\school_app.exe
+D:\sch_app\school_app\school_app\bin\Debug\school_app.pdb
+D:\sch_app\school_app\school_app\obj\Debug\school_app.csproj.AssemblyReference.cache
+D:\sch_app\school_app\school_app\obj\Debug\school_app.csproj.SuggestedBindingRedirects.cache
+D:\sch_app\school_app\school_app\obj\Debug\school_app.frmmain.resources
+D:\sch_app\school_app\school_app\obj\Debug\school_app.Properties.Resources.resources
+D:\sch_app\school_app\school_app\obj\Debug\school_app.csproj.GenerateResource.cache
+D:\sch_app\school_app\school_app\obj\Debug\school_app.csproj.CoreCompileInputs.cache
+D:\sch_app\school_app\school_app\obj\Debug\school_app.exe
+D:\sch_app\school_app\school_app\obj\Debug\school_app.pdb
+D:\sch_app\school_app\school_app\obj\Debug\CustomControls.RJControls.RJTextBox.resources
+D:\sch_app\school_app\school_app\bin\Debug\FontAwesome.Sharp.dll
+D:\sch_app\school_app\school_app\obj\Debug\school_app.csproj.CopyComplete
+D:\sch_app\school_app\school_app\obj\Debug\school_app.Pages.test_form.resources
+D:\new school app\4.6\AdvanceSch_app\AdvanceSch_app\obj\Debug\school_app.csproj.AssemblyReference.cache
+D:\new school app\4.6\AdvanceSch_app\AdvanceSch_app\obj\Debug\school_app.csproj.SuggestedBindingRedirects.cache
+D:\new school app\4.6\AdvanceSch_app\AdvanceSch_app\obj\Debug\school_app.exe
+D:\new school app\4.6\AdvanceSch_app\AdvanceSch_app\obj\Debug\school_app.pdb
+D:\new school app\4.6\AdvanceSch_app\AdvanceSch_app\bin\Debug\school_app.exe.config
+D:\new school app\4.6\AdvanceSch_app\AdvanceSch_app\bin\Debug\school_app.exe
+D:\new school app\4.6\AdvanceSch_app\AdvanceSch_app\bin\Debug\school_app.pdb
+D:\new school app\4.6\AdvanceSch_app\AdvanceSch_app\bin\Debug\FontAwesome.Sharp.dll
+D:\new school app\4.6\AdvanceSch_app\AdvanceSch_app\obj\Debug\school_app.frmmain.resources
+D:\new school app\4.6\AdvanceSch_app\AdvanceSch_app\obj\Debug\school_app.Properties.Resources.resources
+D:\new school app\4.6\AdvanceSch_app\AdvanceSch_app\obj\Debug\school_app.csproj.GenerateResource.cache
+D:\new school app\4.6\AdvanceSch_app\AdvanceSch_app\obj\Debug\school_app.csproj.CoreCompileInputs.cache
+D:\new school app\4.6\AdvanceSch_app\AdvanceSch_app\obj\Debug\school_app.csproj.CopyComplete
+D:\new school app\4.6\AdvanceSch_app\AdvanceSch_app\obj\Debug\CustomControls.RJControls.RJTextBox.resources
+D:\new school app\4.6\AdvanceSch_app\AdvanceSch_app\obj\Debug\school_app.frmStart.resources
+D:\new school app\4.6\AdvanceSch_app\AdvanceSch_app\obj\Debug\school_app.Pages.frmAddmission.resources
+D:\new school app\4.6\AdvanceSch_app\AdvanceSch_app\obj\Debug\school_app.Pages.frmAddmissionDetails.resources
+D:\github\school_Desktop\School_Desktop_Application\AdvanceSch_app\bin\Debug\school_app.exe.config
+D:\github\school_Desktop\School_Desktop_Application\AdvanceSch_app\bin\Debug\school_app.exe
+D:\github\school_Desktop\School_Desktop_Application\AdvanceSch_app\bin\Debug\school_app.pdb
+D:\github\school_Desktop\School_Desktop_Application\AdvanceSch_app\bin\Debug\FontAwesome.Sharp.dll
+D:\github\school_Desktop\School_Desktop_Application\AdvanceSch_app\obj\Debug\school_app.csproj.AssemblyReference.cache
+D:\github\school_Desktop\School_Desktop_Application\AdvanceSch_app\obj\Debug\school_app.csproj.SuggestedBindingRedirects.cache
+D:\github\school_Desktop\School_Desktop_Application\AdvanceSch_app\obj\Debug\CustomControls.RJControls.RJTextBox.resources
+D:\github\school_Desktop\School_Desktop_Application\AdvanceSch_app\obj\Debug\school_app.frmmain.resources
+D:\github\school_Desktop\School_Desktop_Application\AdvanceSch_app\obj\Debug\school_app.frmStart.resources
+D:\github\school_Desktop\School_Desktop_Application\AdvanceSch_app\obj\Debug\school_app.Pages.frmAddmission.resources
+D:\github\school_Desktop\School_Desktop_Application\AdvanceSch_app\obj\Debug\school_app.Pages.frmAddmissionDetails.resources
+D:\github\school_Desktop\School_Desktop_Application\AdvanceSch_app\obj\Debug\school_app.Properties.Resources.resources
+D:\github\school_Desktop\School_Desktop_Application\AdvanceSch_app\obj\Debug\school_app.csproj.GenerateResource.cache
+D:\github\school_Desktop\School_Desktop_Application\AdvanceSch_app\obj\Debug\school_app.csproj.CoreCompileInputs.cache
+D:\github\school_Desktop\School_Desktop_Application\AdvanceSch_app\obj\Debug\school_app.csproj.CopyComplete
+D:\github\school_Desktop\School_Desktop_Application\AdvanceSch_app\obj\Debug\school_app.exe
+D:\github\school_Desktop\School_Desktop_Application\AdvanceSch_app\obj\Debug\school_app.pdb

@@ -1,0 +1,11 @@
+D:\new school app\4.6\AdvanceSch_app\AdvanceSch_app\bin\Debug\AdvanceSch_app.exe.config
+D:\new school app\4.6\AdvanceSch_app\AdvanceSch_app\bin\Debug\AdvanceSch_app.exe
+D:\new school app\4.6\AdvanceSch_app\AdvanceSch_app\bin\Debug\AdvanceSch_app.pdb
+D:\new school app\4.6\AdvanceSch_app\AdvanceSch_app\obj\Debug\AdvanceSch_app.csproj.AssemblyReference.cache
+D:\new school app\4.6\AdvanceSch_app\AdvanceSch_app\obj\Debug\AdvanceSch_app.csproj.SuggestedBindingRedirects.cache
+D:\new school app\4.6\AdvanceSch_app\AdvanceSch_app\obj\Debug\AdvanceSch_app.Form1.resources
+D:\new school app\4.6\AdvanceSch_app\AdvanceSch_app\obj\Debug\AdvanceSch_app.Properties.Resources.resources
+D:\new school app\4.6\AdvanceSch_app\AdvanceSch_app\obj\Debug\AdvanceSch_app.csproj.GenerateResource.cache
+D:\new school app\4.6\AdvanceSch_app\AdvanceSch_app\obj\Debug\AdvanceSch_app.csproj.CoreCompileInputs.cache
+D:\new school app\4.6\AdvanceSch_app\AdvanceSch_app\obj\Debug\AdvanceSch_app.exe
+D:\new school app\4.6\AdvanceSch_app\AdvanceSch_app\obj\Debug\AdvanceSch_app.pdb
