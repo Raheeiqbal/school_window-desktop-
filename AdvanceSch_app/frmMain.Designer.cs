@@ -36,6 +36,7 @@
             this.btnSidebar2 = new FontAwesome.Sharp.IconButton();
             this.btnSidebar1 = new FontAwesome.Sharp.IconButton();
             this.panellogo = new System.Windows.Forms.Panel();
+            this.lbl_creater = new System.Windows.Forms.Label();
             this.btnHome = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panelContBox = new System.Windows.Forms.Panel();
@@ -46,7 +47,6 @@
             this.iconeHome = new FontAwesome.Sharp.IconPictureBox();
             this.panelShadow = new System.Windows.Forms.Panel();
             this.panelDesktop = new System.Windows.Forms.Panel();
-            this.lbl_creater = new System.Windows.Forms.Label();
             this.panelMenu.SuspendLayout();
             this.panellogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnHome)).BeginInit();
@@ -194,6 +194,17 @@
             this.panellogo.Size = new System.Drawing.Size(190, 140);
             this.panellogo.TabIndex = 0;
             // 
+            // lbl_creater
+            // 
+            this.lbl_creater.AutoSize = true;
+            this.lbl_creater.Font = new System.Drawing.Font("Palatino Linotype", 9.9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.lbl_creater.ForeColor = System.Drawing.Color.Gainsboro;
+            this.lbl_creater.Location = new System.Drawing.Point(13, 3);
+            this.lbl_creater.Name = "lbl_creater";
+            this.lbl_creater.Size = new System.Drawing.Size(160, 19);
+            this.lbl_creater.TabIndex = 1;
+            this.lbl_creater.Text = "Created by Raheel Iqbal";
+            // 
             // btnHome
             // 
             this.btnHome.Image = ((System.Drawing.Image)(resources.GetObject("btnHome.Image")));
@@ -323,17 +334,6 @@
             this.panelDesktop.Name = "panelDesktop";
             this.panelDesktop.Size = new System.Drawing.Size(696, 418);
             this.panelDesktop.TabIndex = 3;
-            // 
-            // lbl_creater
-            // 
-            this.lbl_creater.AutoSize = true;
-            this.lbl_creater.Font = new System.Drawing.Font("Palatino Linotype", 9.9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.lbl_creater.ForeColor = System.Drawing.Color.Gainsboro;
-            this.lbl_creater.Location = new System.Drawing.Point(13, 3);
-            this.lbl_creater.Name = "lbl_creater";
-            this.lbl_creater.Size = new System.Drawing.Size(160, 19);
-            this.lbl_creater.TabIndex = 1;
-            this.lbl_creater.Text = "Created by Raheel Iqbal";
             // 
             // frmmain
             // 

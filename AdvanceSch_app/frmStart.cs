@@ -23,9 +23,9 @@ namespace school_app
             {
                 if(i == 1000)
                 {
-                    frmmain fm = new frmmain();
+                    frmLogin fl = new frmLogin();
                     this.Hide();
-                    fm.Show();
+                    fl.Show();
                     timer1.Stop();
                 }
             }
