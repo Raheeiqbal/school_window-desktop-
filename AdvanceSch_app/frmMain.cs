@@ -121,7 +121,7 @@ namespace school_app
         {
             SystemEvents.UserPreferenceChanged -= UserPreferenceChanged;
         }
-        private void LoadTheme()
+        public void LoadTheme()
         {
             var themeColor = WinTheme.GetAccentColor();//Windows Accent Color
             var lightColor = ControlPaint.Light(themeColor);
