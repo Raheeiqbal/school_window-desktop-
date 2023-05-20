@@ -249,6 +249,7 @@ namespace school_app
             else
             {
                 WindowState = FormWindowState.Normal;
+                this.CenterToScreen();
             }
         }
 

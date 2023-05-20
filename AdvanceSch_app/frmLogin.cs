@@ -19,10 +19,8 @@ namespace school_app
         public frmLogin()
         {
             InitializeComponent();
-
             LoadTheme();
-
-
+            txt_usr.Select();
         }
         public void LoadTheme()
         {
