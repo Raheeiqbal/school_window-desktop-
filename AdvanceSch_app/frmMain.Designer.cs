@@ -68,7 +68,7 @@
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
             this.panelMenu.Name = "panelMenu";
             this.panelMenu.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.panelMenu.Size = new System.Drawing.Size(220, 502);
+            this.panelMenu.Size = new System.Drawing.Size(220, 530);
             this.panelMenu.TabIndex = 0;
             // 
             // iconButton5
@@ -329,10 +329,11 @@
             // 
             // panelDesktop
             // 
+            this.panelDesktop.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktop.Location = new System.Drawing.Point(220, 84);
             this.panelDesktop.Name = "panelDesktop";
-            this.panelDesktop.Size = new System.Drawing.Size(696, 418);
+            this.panelDesktop.Size = new System.Drawing.Size(696, 446);
             this.panelDesktop.TabIndex = 3;
             // 
             // frmmain
@@ -341,14 +342,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.CancelButton = this.iconbtnCLose;
-            this.ClientSize = new System.Drawing.Size(916, 502);
+            this.ClientSize = new System.Drawing.Size(916, 530);
             this.ControlBox = false;
             this.Controls.Add(this.panelDesktop);
             this.Controls.Add(this.panelShadow);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panelMenu);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MinimumSize = new System.Drawing.Size(750, 530);
             this.Name = "frmmain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "School Application";

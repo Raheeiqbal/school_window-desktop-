@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogin));
             this.pnl_side = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -42,12 +43,9 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.btn_Login = new school_app.RJButton();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.txt_psw = new CustomControls.RJControls.RJTextBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.btn_img_lock = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.txt_usr = new CustomControls.RJControls.RJTextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.label7 = new System.Windows.Forms.Label();
@@ -56,12 +54,17 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btn_close = new FontAwesome.Sharp.IconButton();
             this.label6 = new System.Windows.Forms.Label();
+            this.lbl_err_usr = new System.Windows.Forms.Label();
+            this.lbl_err_pass = new System.Windows.Forms.Label();
+            this.btn_Login = new school_app.RJButton();
+            this.txt_psw = new CustomControls.RJControls.RJTextBox();
+            this.txt_usr = new CustomControls.RJControls.RJTextBox();
             this.pnl_side.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_img_lock)).BeginInit();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel2.SuspendLayout();
@@ -184,7 +187,7 @@
             this.lbl_error.AutoSize = true;
             this.lbl_error.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_error.ForeColor = System.Drawing.Color.Red;
-            this.lbl_error.Location = new System.Drawing.Point(38, 78);
+            this.lbl_error.Location = new System.Drawing.Point(38, 92);
             this.lbl_error.Name = "lbl_error";
             this.lbl_error.Size = new System.Drawing.Size(97, 24);
             this.lbl_error.TabIndex = 6;
@@ -234,99 +237,39 @@
             this.label8.TabIndex = 6;
             this.label8.Text = "Support";
             // 
-            // btn_Login
-            // 
-            this.btn_Login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
-            this.btn_Login.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
-            this.btn_Login.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btn_Login.BorderRadius = 5;
-            this.btn_Login.BorderSize = 0;
-            this.btn_Login.FlatAppearance.BorderSize = 0;
-            this.btn_Login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Login.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Login.ForeColor = System.Drawing.Color.White;
-            this.btn_Login.Location = new System.Drawing.Point(12, 299);
-            this.btn_Login.Name = "btn_Login";
-            this.btn_Login.Size = new System.Drawing.Size(148, 35);
-            this.btn_Login.TabIndex = 7;
-            this.btn_Login.Text = "Login";
-            this.btn_Login.TextColor = System.Drawing.Color.White;
-            this.btn_Login.UseVisualStyleBackColor = false;
-            this.btn_Login.Click += new System.EventHandler(this.btn_Login_Click);
-            // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.White;
+            this.panel5.Controls.Add(this.lbl_err_pass);
             this.panel5.Controls.Add(this.txt_psw);
-            this.panel5.Controls.Add(this.pictureBox4);
+            this.panel5.Controls.Add(this.btn_img_lock);
             this.panel5.Location = new System.Drawing.Point(0, 236);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(450, 45);
             this.panel5.TabIndex = 6;
             // 
-            // txt_psw
+            // btn_img_lock
             // 
-            this.txt_psw.BackColor = System.Drawing.SystemColors.Window;
-            this.txt_psw.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(215)))));
-            this.txt_psw.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(215)))));
-            this.txt_psw.BorderRadius = 5;
-            this.txt_psw.BorderSize = 1;
-            this.txt_psw.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_psw.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
-            this.txt_psw.Location = new System.Drawing.Point(48, 6);
-            this.txt_psw.Margin = new System.Windows.Forms.Padding(4);
-            this.txt_psw.Multiline = false;
-            this.txt_psw.Name = "txt_psw";
-            this.txt_psw.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.txt_psw.PasswordChar = true;
-            this.txt_psw.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.txt_psw.PlaceholderText = "Password";
-            this.txt_psw.Size = new System.Drawing.Size(382, 36);
-            this.txt_psw.TabIndex = 8;
-            this.txt_psw.Texts = "";
-            this.txt_psw.UnderlinedStyle = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::school_app.Properties.Resources.pngegg__1_;
-            this.pictureBox4.Location = new System.Drawing.Point(12, 3);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(27, 39);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 7;
-            this.pictureBox4.TabStop = false;
+            this.btn_img_lock.Image = global::school_app.Properties.Resources.pngegg__1_;
+            this.btn_img_lock.Location = new System.Drawing.Point(12, 3);
+            this.btn_img_lock.Name = "btn_img_lock";
+            this.btn_img_lock.Size = new System.Drawing.Size(27, 39);
+            this.btn_img_lock.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btn_img_lock.TabIndex = 7;
+            this.btn_img_lock.TabStop = false;
+            this.btn_img_lock.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btn_img_lock_MouseDown);
+            this.btn_img_lock.MouseUp += new System.Windows.Forms.MouseEventHandler(this.btn_img_lock_MouseUp);
             // 
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.White;
+            this.panel6.Controls.Add(this.lbl_err_usr);
             this.panel6.Controls.Add(this.txt_usr);
             this.panel6.Controls.Add(this.pictureBox3);
             this.panel6.Location = new System.Drawing.Point(0, 185);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(450, 45);
             this.panel6.TabIndex = 5;
-            // 
-            // txt_usr
-            // 
-            this.txt_usr.BackColor = System.Drawing.SystemColors.Window;
-            this.txt_usr.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(215)))));
-            this.txt_usr.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(215)))));
-            this.txt_usr.BorderRadius = 5;
-            this.txt_usr.BorderSize = 1;
-            this.txt_usr.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_usr.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
-            this.txt_usr.Location = new System.Drawing.Point(48, 6);
-            this.txt_usr.Margin = new System.Windows.Forms.Padding(4);
-            this.txt_usr.Multiline = false;
-            this.txt_usr.Name = "txt_usr";
-            this.txt_usr.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.txt_usr.PasswordChar = false;
-            this.txt_usr.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.txt_usr.PlaceholderText = "User Name";
-            this.txt_usr.Size = new System.Drawing.Size(382, 36);
-            this.txt_usr.TabIndex = 7;
-            this.txt_usr.Texts = "";
-            this.txt_usr.UnderlinedStyle = false;
             // 
             // pictureBox3
             // 
@@ -422,6 +365,98 @@
             this.label6.TabIndex = 1;
             this.label6.Text = "Login To Your Account";
             // 
+            // lbl_err_usr
+            // 
+            this.lbl_err_usr.AutoSize = true;
+            this.lbl_err_usr.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_err_usr.ForeColor = System.Drawing.Color.Red;
+            this.lbl_err_usr.Location = new System.Drawing.Point(407, 12);
+            this.lbl_err_usr.Name = "lbl_err_usr";
+            this.lbl_err_usr.Size = new System.Drawing.Size(20, 25);
+            this.lbl_err_usr.TabIndex = 11;
+            this.lbl_err_usr.Text = "!";
+            this.lbl_err_usr.Visible = false;
+            // 
+            // lbl_err_pass
+            // 
+            this.lbl_err_pass.AutoSize = true;
+            this.lbl_err_pass.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_err_pass.ForeColor = System.Drawing.Color.Red;
+            this.lbl_err_pass.Location = new System.Drawing.Point(407, 12);
+            this.lbl_err_pass.Name = "lbl_err_pass";
+            this.lbl_err_pass.Size = new System.Drawing.Size(20, 25);
+            this.lbl_err_pass.TabIndex = 12;
+            this.lbl_err_pass.Text = "!";
+            this.lbl_err_pass.Visible = false;
+            // 
+            // btn_Login
+            // 
+            this.btn_Login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.btn_Login.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.btn_Login.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btn_Login.BorderRadius = 5;
+            this.btn_Login.BorderSize = 0;
+            this.btn_Login.FlatAppearance.BorderSize = 0;
+            this.btn_Login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Login.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Login.ForeColor = System.Drawing.Color.White;
+            this.btn_Login.Location = new System.Drawing.Point(12, 299);
+            this.btn_Login.Name = "btn_Login";
+            this.btn_Login.Size = new System.Drawing.Size(148, 35);
+            this.btn_Login.TabIndex = 7;
+            this.btn_Login.Text = "Login";
+            this.btn_Login.TextColor = System.Drawing.Color.White;
+            this.btn_Login.UseVisualStyleBackColor = false;
+            this.btn_Login.Click += new System.EventHandler(this.btn_Login_Click);
+            // 
+            // txt_psw
+            // 
+            this.txt_psw.BackColor = System.Drawing.SystemColors.Window;
+            this.txt_psw.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(215)))));
+            this.txt_psw.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(215)))));
+            this.txt_psw.BorderRadius = 5;
+            this.txt_psw.BorderSize = 1;
+            this.txt_psw.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_psw.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.txt_psw.Location = new System.Drawing.Point(48, 6);
+            this.txt_psw.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_psw.Multiline = false;
+            this.txt_psw.Name = "txt_psw";
+            this.txt_psw.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.txt_psw.PasswordChar = true;
+            this.txt_psw.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.txt_psw.PlaceholderText = "Password";
+            this.txt_psw.Size = new System.Drawing.Size(382, 36);
+            this.txt_psw.TabIndex = 8;
+            this.txt_psw.Texts = "";
+            this.txt_psw.UnderlinedStyle = false;
+            this.txt_psw._TextChanged += new System.EventHandler(this.txt_psw__TextChanged);
+            this.txt_psw.Click += new System.EventHandler(this.txt_psw_Click);
+            // 
+            // txt_usr
+            // 
+            this.txt_usr.BackColor = System.Drawing.SystemColors.Window;
+            this.txt_usr.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(215)))));
+            this.txt_usr.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(215)))));
+            this.txt_usr.BorderRadius = 5;
+            this.txt_usr.BorderSize = 1;
+            this.txt_usr.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_usr.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.txt_usr.Location = new System.Drawing.Point(48, 6);
+            this.txt_usr.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_usr.Multiline = false;
+            this.txt_usr.Name = "txt_usr";
+            this.txt_usr.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.txt_usr.PasswordChar = false;
+            this.txt_usr.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.txt_usr.PlaceholderText = "User Name";
+            this.txt_usr.Size = new System.Drawing.Size(382, 36);
+            this.txt_usr.TabIndex = 7;
+            this.txt_usr.Texts = "";
+            this.txt_usr.UnderlinedStyle = false;
+            this.txt_usr._TextChanged += new System.EventHandler(this.txt_usr__TextChanged);
+            this.txt_usr.Click += new System.EventHandler(this.txt_usr_Click);
+            // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -431,6 +466,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pnl_side);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmLogin";
@@ -442,8 +478,10 @@
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_img_lock)).EndInit();
             this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -472,7 +510,7 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private FontAwesome.Sharp.IconButton iconButton1;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox btn_img_lock;
         private CustomControls.RJControls.RJTextBox txt_usr;
         private RJButton btn_Login;
         private CustomControls.RJControls.RJTextBox txt_psw;
@@ -481,5 +519,7 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label lbl_error;
+        private System.Windows.Forms.Label lbl_err_pass;
+        private System.Windows.Forms.Label lbl_err_usr;
     }
 }

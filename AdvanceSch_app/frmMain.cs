@@ -77,7 +77,7 @@ namespace school_app
                 lblDash.Text = currentBtn.Text;
                 LoadTheme();
             }
-            
+
         }
         private void OpenChildForm(Form childForm)
         {
@@ -127,9 +127,9 @@ namespace school_app
             var lightColor = ControlPaint.Light(themeColor);
             var darkColor = ControlPaint.Dark(themeColor);
             //var extradarkColor = ControlPaint.DarkDark(themeColor);
-            
-            
-            
+
+
+
             //---panel color
             panel1.BackColor = lightColor;
             panelMenu.BackColor = darkColor;
@@ -142,8 +142,8 @@ namespace school_app
 
             //---controlBox button
             iconbtnCLose.BackColor = lightColor;
-            btnMinimize.BackColor  = lightColor;
-            btnMaximize.BackColor  = lightColor;
+            btnMinimize.BackColor = lightColor;
+            btnMaximize.BackColor = lightColor;
 
 
             //---sidebar icone color
@@ -153,7 +153,7 @@ namespace school_app
             iconButton4.IconColor = lightColor;
             iconButton5.IconColor = lightColor;
 
-            
+
             //---sidebar panel color
             btnSidebar1.BackColor = darkColor;
             btnSidebar2.BackColor = darkColor;
@@ -218,7 +218,7 @@ namespace school_app
             //reset();
             frmmain frm = new frmmain();
             frm.Show();
-             
+
         }
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
@@ -243,9 +243,13 @@ namespace school_app
         private void iconButton6_Click(object sender, EventArgs e)
         {
             if (WindowState == FormWindowState.Normal)
+            {
                 WindowState = FormWindowState.Maximized;
+            }
             else
+            {
                 WindowState = FormWindowState.Normal;
+            }
         }
 
         private void iconButton7_Click(object sender, EventArgs e)
